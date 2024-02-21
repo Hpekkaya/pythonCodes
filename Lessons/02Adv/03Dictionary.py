@@ -47,13 +47,26 @@ my_dict ={"name":"Max", "age" :28, "city" : "New York"}
 # print(my_dict)
 
 # Update process
-my_dict ={'name': 'Max', 'age': 28, 'city': 'New York', 'email': 'max@xyz.gmail.com'}
-my_dict_2 = {'name': 'Mary', 'age': 18, 'city': 'Boston'}
+# my_dict ={'name': 'Max', 'age': 28, 'city': 'New York', 'email': 'max@xyz.gmail.com'}
+# my_dict_2 = {'name': 'Mary', 'age': 18, 'city': 'Boston'}
 
-# Merge
-my_dict.update(my_dict_2)
+# # Merge
+# my_dict.update(my_dict_2)
+# print(my_dict)
+# print(my_dict_2)
+
+# Key types
+
+my_dict ={3:9,6:36,9:81}
 print(my_dict)
-print(my_dict_2)
+
+# value = my_dict[9]
+# print(value)
+
+my_tuple =(8,7)
+my_dict= {my_tuple:15}
+print(my_dict)
+print(my_tuple)
 
 
 
