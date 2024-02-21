@@ -3,21 +3,25 @@
 # my_list = ["apple", "banana", "cherry"]
 # print(my_list)
 
+# Iterate
 # for i in my_list:
 #     print(i)
     
 # print("-- --") 
 
+# Check
 # if ("baana") in my_list: print("Yes") 
 # else : print("No")
 
+# Insert
 # my_list.append('lemon')
 # print(my_list)
 
 # my_list.insert(1, "appricot")
 # print(my_list)
 
-# item = my_list.pop(1) # Remove and return item at index (default last).
+# Remove and return item at index (default last).
+# item = my_list.pop(1) 
 # item2 = my_list.remove('apple') # Remove first occurrence of value.
 # print(item)
 # print(item2)
