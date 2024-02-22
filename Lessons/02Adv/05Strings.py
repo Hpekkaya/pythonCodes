@@ -58,9 +58,14 @@ print(my_string, my_list)
 
 my_string1 = "How, are, you, doing ?"
 my_list1 = my_string1.split()  #Split into words and ","
-my_list11 = my_string1.split(",")  #Split into words and ","
-print(my_string1, my_list11)
 
+print(my_string1, my_list1)
+
+new_string = "".join(my_list)
+print(new_string)
+
+new_string1 = " ".join(my_list1)
+print(new_string1)
 
 
 
