@@ -31,5 +31,5 @@ emp_2 = Employee("Test", "Hakan", 25000)
 print(emp_1.email)
 print(emp_2.email)
 
-
 # Methods
+print("{} {}".format(emp_1.first, emp_1.last))
