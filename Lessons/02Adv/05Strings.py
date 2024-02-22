@@ -18,11 +18,11 @@
 # print("4 :", sub_string4)
 
 #String Iteration
-greeting = "Hello "
-name = "Hakan"
+# greeting = "Hello "
+# name = "Hakan"
 
-sentence = greeting + " " + name
-print(sentence)
+# sentence = greeting + " " + name
+# print(sentence)
 
 # for i in greeting:
 #     print(i)
@@ -52,20 +52,43 @@ print(sentence)
 
 # print(my_string.replace("World","Dears"))
 
-my_string = "How are you doing ?"
-my_list = my_string.split()  #Split into words
-print(my_string, my_list)
+# my_string = "How are you doing ?"
+# my_list = my_string.split()  #Split into words
+# print(my_string, my_list)
 
-my_string1 = "How, are, you, doing ?"
-my_list1 = my_string1.split()  #Split into words and ","
+# my_string1 = "How, are, you, doing ?"
+# my_list1 = my_string1.split()  #Split into words and ","
 
-print(my_string1, my_list1)
+# print(my_string1, my_list1)
 
-new_string = "".join(my_list)
-print(new_string)
+# new_string = "".join(my_list)
+# print(new_string)
 
-new_string1 = " ".join(my_list1)
-print(new_string1)
+# new_string1 = " ".join(my_list1)
+# print(new_string1)
 
+
+my_list =["a"]*1000
+# print(my_list)
+
+from timeit import default_timer as timer
+
+start = timer()
+#Bad Code
+my_string =''
+# for i in my_list:
+#     my_string += i
+
+# stop = timer()
+# time = stop-start
+# print(time*1000)
+
+# #Good
+# stop = timer()
+# my_string = ''.join(my_string)
+
+# stop = timer()
+# time = stop-start
+# print(time*1000)
 
 
