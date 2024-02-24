@@ -41,18 +41,62 @@ sorted_data = sorted(data, key=lambda x: x["name"])
 # my_set = set(my_list)
 # print(my_set)
 
-# Save Memory with generators () when we compare list[]
+# 5 Save Memory with generators () when we compare list[]
 
-import sys
+# import sys
+# Bad
+# my_list = [i for i in range(1, 10000, 2)]
+# print(sum(my_list))
 
-my_list = [i for i in range(1, 10000, 2)]
-print(sum(my_list))
+# size = sys.getsizeof(my_list), "bytes"
+# print(size)
 
-size = sys.getsizeof(my_list), "bytes"
-print(size)
+# Good
+# my_gen = (i for i in range(1, 10000, 2))
+# print(sum(my_gen))
 
-my_gen = (i for i in range(1, 10000, 2))
-print(sum(my_gen))
+# size = sys.getsizeof(my_gen), "bytes"
+# print(size)
 
-size = sys.getsizeof(my_gen), "bytes"
-print(size)
+# 6 Define default values in Dictionaries with .get() and .setdefault
+
+# my_dict = {"item": "footbal", "price": 10}
+# count = my_dict.get("count", 0)
+# print(count)
+
+# count = my_dict.setdefault("item", 0)
+# print(count)
+# print(my_dict)
+
+# 7 Count hashable objects with collections
+
+# from collections import Counter
+
+# my_list = [10, 10, 10, 5, 5, 2, 9, 9, 9, 9, 9, 9, 9, 3, 3, 3, 3, 3, 3]
+# counter = Counter(my_list)
+# print(counter)
+
+# most_common = counter.most_common(2)
+# print(most_common)
+
+# 8 Format strings with f strings
+# name = "Hakan"
+# my_string = f"Hello {name}"
+# print(my_string)
+
+# i = 10
+# print(f"{i} squarred is {i*i}")
+
+# 9 concat string with .join()
+
+# list_of_string = ["Hello", "my", "friends"]
+
+# my_string = ", ".join(list_of_string)
+# print(my_string)
+
+# 10 Merge two dictionaries
+d1 = {"name": "Hakan", "age": 54}
+d2 = {"name": "Mehmet", "city": "Istanbul"}
+
+merged_dict = {**d1, **d2}
+print(merged_dict)
