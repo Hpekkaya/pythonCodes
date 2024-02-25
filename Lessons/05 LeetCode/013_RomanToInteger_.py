@@ -46,15 +46,30 @@ def is_Roman(roman, valid_letters):
     return True
 
 
-num = "CIV0"
+def is_valid_roman(roman):
+    roman_numerals = {"I", "V", "X", "L", "C", "D", "M"}
+    return all(char in roman_numerals for char in roman)
+
+
+def find_invalid_romans(strings):
+    invalid_romans = []
+    for string in strings:
+        if not is_valid_roman(string):
+            invalid_romans.append(string)
+    return invalid_romans
+
+
+num = "CIVfr"
 num = num.upper()
 
-roman_letters = [str(key) for key in rom_dict.keys()]
+valid_roman = [str(key) for key in rom_dict.keys()]
 
 
 if (len(num) < 1) and (len(num) > 15):
     print("Please enter the length between 1-15")
-if is_Roman(num, roman_letters):
+if is_Roman(num, valid_roman):
     print(romanToInt(num))
 else:
+    invalid_romans = find_invalid_romans(num)
     print("Please enter the ROMAN Number")
+    print("Invalid Roman numerals:", list(invalid_romans))
