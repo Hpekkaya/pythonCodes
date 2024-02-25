@@ -1,0 +1,26 @@
+def remove_duplicates(nums):
+    if not nums:
+        return 0  # If the array is empty, return 0
+
+    # Initialize a pointer to keep track of the position to overwrite duplicates
+    pointer = 1
+
+    # Iterate through the array starting from the second element
+    for i in range(1, len(nums)):
+        # If the current element is different from the previous one,
+        # overwrite the pointer position with the current element
+        if nums[i] != nums[i - 1]:
+            nums[pointer] = nums[i]
+            pointer += 1
+
+    return pointer  # Return the length of the modified array
+
+
+# Example usage:
+nums = [1, 1, 2, 2, 3, 4, 4, 5]
+len_bef_rem = len(nums)
+length = remove_duplicates(nums)
+print("Length of modified array:", length)  # Output: 5
+print("Modified array:", nums[:length])  # Output: [1, 2, 3, 4, 5]
+
+# Example usage:
