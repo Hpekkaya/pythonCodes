@@ -1,16 +1,19 @@
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        prevMap = {}
-
-        for i, n in enumerate(nums):
-            diff = target - n
-            if diff in prevMap:
-                return [prevMap[diff], i]
-            prevMap[n] = i
-        return
+# A simple Python function to check
+# whether x is even or odd
 
 
-nums = [2, 7, 18, 35]
-target = 53
+def evenOdd(x):
+    """Function to check if the number is even or odd"""
 
-print(Solution(nums, target))
+    if x % 2 == 0:
+        return "even"
+    else:
+        return "odd"
+
+
+# Driver code to call the function
+print(evenOdd.__doc__)
+
+y = 75
+x = evenOdd(y)
+print(f"The number {y:.2f} is {x}")
