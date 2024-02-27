@@ -1,5 +1,9 @@
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def __init__(self, nums: list[int], target: int):
+        self.nums = nums
+        self.target = target
+
+    def twoSum(self):
         prevMap = {}
 
         for i, n in enumerate(nums):
@@ -13,4 +17,4 @@ class Solution:
 nums = [2, 7, 18, 35]
 target = 53
 
-print(Solution(nums, target))
+print((nums, target))
