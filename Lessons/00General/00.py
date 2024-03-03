@@ -1,21 +1,25 @@
-# initializing integers
-a = 1
-b = 2
+def quick_sort(arr):
+    # Base case: if the list contains 0 or 1 element, it's already sorted
+    if len(arr) <= 1:
+        return arr
 
-# initializing tuple
-tup = (("a", 1), ("f", 2), ("g", 3))
+    # Select a pivot element (here, we choose the first element)
+    pivot = arr[0]
 
-# printing integer converting to complex number
-c = complex(1, 2)
-print("After converting integer to complex number : ", end="")
-print(c)
+    # Partitioning step: divide the list into two sublists
+    # Elements smaller than the pivot go to the left, and larger ones go to the right
+    left = [x for x in arr[1:] if x <= pivot]
+    right = [x for x in arr[1:] if x > pivot]
 
-# printing integer converting to string
-c = str(a)
-print("After converting integer to string : ", end="")
-print(c)
+    # Recursively sort the sublists (excluding the pivot)
+    sorted_left = quick_sort(left)
+    sorted_right = quick_sort(right)
 
-# printing tuple converting to expression dictionary
-c = dict(tup)
-print("After converting tuple to dictionary : ", end="")
-print(c)
+    # Combine the sorted sublists and the pivot to get the final sorted list
+    return sorted_left + [pivot] + sorted_right
+
+
+# Example usage:
+numbers = [64, 34, 25, 12, 22, 11, 90]
+sorted_numbers = quick_sort(numbers)
+print("Sorted numbers:", sorted_numbers)
