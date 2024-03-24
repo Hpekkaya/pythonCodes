@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d9aa1ba-b84d-4f16-87f6-475566c4e9cd" name="Changes" comment="Object Oriented Programmimg lesson1 created">
-      <change afterPath="$PROJECT_DIR$/.idea/16_OOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/another_module.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Lessons/00General/13HighLowGame/main py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lessons/00General/13HighLowGame/main py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17QuizOOP" beforeDir="false" afterPath="$PROJECT_DIR$/../17QuizOOP" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18TurtleProject" beforeDir="false" afterPath="$PROJECT_DIR$/../18TurtleProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../19TurtleListener" beforeDir="false" afterPath="$PROJECT_DIR$/../19TurtleListener" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20PongGame" beforeDir="false" afterPath="$PROJECT_DIR$/../20PongGame" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20Snake_Game" beforeDir="false" afterPath="$PROJECT_DIR$/../20Snake_Game" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../23TurtleCrossCapstone" beforeDir="false" afterPath="$PROJECT_DIR$/../23TurtleCrossCapstone" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../25WorkWithCSVandPandas" beforeDir="false" afterPath="$PROJECT_DIR$/../25WorkWithCSVandPandas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather_data.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +28,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2dF60TsCrKaBoNd70bshDetGSpC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,7 +46,7 @@
     "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable"
   }
 }]]></component>

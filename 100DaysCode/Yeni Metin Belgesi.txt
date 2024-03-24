@@ -1,1 +1,7 @@
 https://www.udemy.com/course/data-structures-algorithms-python/?couponCode=KEEPLEARNING
+
+names = ["Hakan", "Alev", "Kerem", "Mehmet", "Hatice", "Fatih"]
+
+
+
+
