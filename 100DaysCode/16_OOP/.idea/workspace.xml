@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d9aa1ba-b84d-4f16-87f6-475566c4e9cd" name="Changes" comment="Object Oriented Programmimg lesson1 created">
+    <list default="true" id="8d9aa1ba-b84d-4f16-87f6-475566c4e9cd" name="Changes" comment="N">
+      <change beforePath="$PROJECT_DIR$/../01Link_lists" beforeDir="false" afterPath="$PROJECT_DIR$/../01Link_lists" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../16CoffeMachineOOP" beforeDir="false" afterPath="$PROJECT_DIR$/../16CoffeMachineOOP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../17QuizOOP" beforeDir="false" afterPath="$PROJECT_DIR$/../17QuizOOP" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../18TurtleProject" beforeDir="false" afterPath="$PROJECT_DIR$/../18TurtleProject" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../19TurtleListener" beforeDir="false" afterPath="$PROJECT_DIR$/../19TurtleListener" afterDir="false" />
@@ -12,8 +14,6 @@
       <change beforePath="$PROJECT_DIR$/../20Snake_Game" beforeDir="false" afterPath="$PROJECT_DIR$/../20Snake_Game" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../23TurtleCrossCapstone" beforeDir="false" afterPath="$PROJECT_DIR$/../23TurtleCrossCapstone" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../25WorkWithCSVandPandas" beforeDir="false" afterPath="$PROJECT_DIR$/../25WorkWithCSVandPandas" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../weather_data.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +41,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.black.configuration.BlackFormatterConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -74,11 +74,84 @@
       <option name="project" value="LOCAL" />
       <updated>1709591361544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="N">
+      <option name="closed" value="true" />
+      <created>1712649732592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712649732592</updated>
+    </task>
+    <task id="LOCAL-00003" summary="N">
+      <option name="closed" value="true" />
+      <created>1712649839701</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712649839701</updated>
+    </task>
+    <task id="LOCAL-00004" summary="N">
+      <option name="closed" value="true" />
+      <created>1712649866422</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712649866422</updated>
+    </task>
+    <task id="LOCAL-00005" summary="N">
+      <option name="closed" value="true" />
+      <created>1712649878116</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712649878116</updated>
+    </task>
+    <task id="LOCAL-00006" summary="N">
+      <option name="closed" value="true" />
+      <created>1712649887815</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712649887815</updated>
+    </task>
+    <task id="LOCAL-00007" summary="N">
+      <option name="closed" value="true" />
+      <created>1712649899034</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712649899034</updated>
+    </task>
+    <task id="LOCAL-00008" summary="N">
+      <option name="closed" value="true" />
+      <created>1712649912354</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712649912354</updated>
+    </task>
+    <task id="LOCAL-00009" summary="N">
+      <option name="closed" value="true" />
+      <created>1712649924691</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1712649924691</updated>
+    </task>
+    <task id="LOCAL-00010" summary="N">
+      <option name="closed" value="true" />
+      <created>1712649951296</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712649951296</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Object Oriented Programmimg lesson1 created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Object Oriented Programmimg lesson1 created" />
+    <MESSAGE value="N" />
+    <option name="LAST_COMMIT_MESSAGE" value="N" />
   </component>
 </project>
